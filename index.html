@@ -1,59 +1,74 @@
-<script>
-  const chairs = 40;
-  const guests = 45;
-  
-  if (guests <= 40) {
+<html>
+  <script>
+  const chairs = a;
+  const guests = b;
+  const juice =  2*b;
+    
+  if (b <= 40){
   console.log("everything is good");
   }
-  else if (guests > 40 && guests <=50){
+  else if (b > 40 && b <=50){
     console.log("bring 10 more chairs");
-    console.log(chairs + 10);
+    console.log(a + 10);
   }
-  else if (guests > 50 && guests <=60){
+  else if (b > 50 && b <=60){
     console.log("bring 20 more chairs");
-        console.log(chairs + 20);
+        console.log(a + 20);
   }
   else {
     console.log ("close the doors and remove all chairs");
-    console.log (chairs - 40);
+    console.log (a - 40);
   }
-  
-  
+    
+  if (b <= 30){
+    console.log("two cups for each guest");
+  }
+  else {
+   console.log("one cup for each person");
+  }
+    
 </script>
 
-
-<html>
   <head>
-    <title>An Unexpected Journey</title>
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>A Big Lecture</title>
     <style>
-  <link href="/style.css" type="text/css" rel="stylesheet">
+  <link href="/index.css" type="text/css" rel="stylesheet"> /* linking to css file */
   </style>
   </head>
   <body>
       <table>
+        
+       /*
+        title styling
+        */
+       
     <thead>
       <tr>
-        <th>Family name</th>
+        <th>Family's Surname</th>
         <th>Number of coming members</th>
       </tr>
     </thead>
     <tbody>
+      
+      /*
+      and o title styling
+      start of data styling
+      */
+      
       <tr>
-        <th>Daniels</th>
+        <th>Daniel</th>
         <td>3</td>
       </tr>
       <tr>
-        <th>Daviess</th>
+        <th>Wenig</th>
         <td>2</td>
       </tr>
       <tr>
-        <th>Baker's</th>
+        <th>Baker</th>
         <td>3</td>
       </tr>
       <tr>
-        <th>Sally</th>
+        <th>Martin</th>
         <td>4</td>
       </tr>
       <tr>
@@ -64,5 +79,3 @@
   </table>
   </body>
 </html>
-
-
