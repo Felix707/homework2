@@ -1,0 +1,33 @@
+backgorund
+{
+background-image: url(https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwip56L0t53WAhWFHxoKHfhsDZcQjRwIBw&url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fhu%2Fcampinghotel-sia3fok.pl.html&psig=AFQjCNE_4svUYiuyOGP-81ZqDRSgQIiV2Q&ust=1505229703813955);
+}
+
+
+*
+{
+font-family: Times New Roman;
+}
+
+/*
+working on other parts of the table
+color, size and etc.
+*/
+
+h1
+{
+color: rgb (3, 0, 90);
+font-size: 16px;
+word-spacing: 0,35em;
+font-weight: 800;
+text-align: center;
+}
+
+h2
+{
+color: rgb (0, 0, 0);
+font-size: 12px;
+word-spacing: 0,25em;
+font-weight: 300;
+text-align: right;
+}
